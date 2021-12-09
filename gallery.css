@@ -1,0 +1,118 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.jumbotron {
+  color: #2c3e50;
+  background-color: #ecf0f1;
+}
+
+.navbar-inverse {
+  background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+#bgImg {
+  background-image: url(" https://st2.depositphotos.com/1620675/9248/i/950/depositphotos_92489080-stock-photo-abstract-light-color-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Form */
+
+.mb-3 {
+  padding-top: 70px;
+}
+
+.about_name {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.about h3 {
+  font-weight: 600;
+  font-size: 40px;
+  margin: 40px 0;
+  color: #2c3e50;
+
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.about_txt {
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.about_txt p {
+  margin-bottom: 20px;
+}
+
+.about {
+  margin-bottom: 37px;
+}
+
+.quote_name {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+/*.rounded{
+	height: 200px;
+	width:200px;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	justify-content:center;
+	align-items: center; 
+}*/
+
+.rounded {
+  height: 100%;
+  padding-top: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+/*BOOOTSTRAP MANUAL STYLE*/
+/* @media (min-width: 1200px) {
+  .container {
+    width: 1270px !important;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+ */
+.jumbotron {
+  margin-top: 72px;
+}
